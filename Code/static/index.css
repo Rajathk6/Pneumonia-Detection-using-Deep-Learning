@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #464d4c; /* Optional: Adds a subtle background for professional appeal */
+    color: #333; /* Standard dark-gray text color for professionalism */
+}
+
+.second_div {
+    background-color: rgb(209, 197, 197);
+    width: auto;
+    padding-top: -10px;
+    color: black;
+    margin: 100px 300px;
+    border: 2px solid black;
+    border-radius: 13px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+}
+button{
+    align-items: center;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #6A0DAD;
+    border: none;
+    border-radius: 18px;
+    padding: 8px 18px;
+    transition: background-color 0.2s ease;
+    &:hover{
+        cursor: pointer;
+        background-color: #8A2BE2;  
+    }
+}
+ 
+
+
